@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+/*index page styles*/
+
+/*styling header for both pages*/
+body{
+    line-height: 1.5;
+}
+header{
+    text-align: center;
+    background-color: navy;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    margin: 0 10px;
+}
+.white{
+    color: white;
+}
+.green{
+    color: lawngreen;
+}
+/*styling main for index page*/
+.heading01{
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.heading02{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-bottom: 40px;
+}
+/*Square box with box model properties*/
+.square-box{
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+    background-color: #99D8CA;
+    box-shadow: inset 0 0 0 17px #5873E2;
+    border: 5px solid #0D1430;
+    outline: 20px solid #90FFA9;
+    border-radius: 5px;
+}
+/*markers under the box*/
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #99D8CA;
+    outline: 1px solid black;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.two{
+    background-color: #0D1430;
+}
+.three{
+    background-color: #90FFA9;
+}
+.four{
+    background-color: #5873E2;
+}
+.common{
+    text-align: center;
+    margin-top: 40px;
+}
+.marker{
+    text-align: center;
+    margin-right: 20px;
+    display: inline-block;
+}
+hr{
+    width: 700px;
+    margin: 35px auto;
+    border: 1px dashed gray;
+}
+/*container one with boxes inside*/
+.container{
+    width: 660px;
+    border: 2px solid black;
+    margin: 0 auto;
+    font-size: 0;
+}
+.child-box{
+    width: 200px;
+    height: 180px;
+    background-color: #DBE9F4;
+    display: inline-block;
+    margin: 10px;
+}
+/*container two with border boxes*/
+.border{
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+/*Styling footer*/
+.empty{
+    padding: 40px;
+}
+
+ /*blog page styling*/
+img { 
+    width: 100%
+}
+.content { 
+    width: 1200px;
+    text-align: center;
+    margin: 80px auto;
+}
+.main-content { 
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;  
+}
+.second-heading { 
+    color: rgb(7,21,76);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 0; 
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.paragraph { 
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.read-link { 
+    text-align: left;
+}
+.read { 
+    text-decoration: none;
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+    color: honeydew;
+}
+.learn-link { 
+    text-align: left;
+}
+.learn { 
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.third-heading { 
+    color: rgb(7,21,76);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    text-align: left; 
+    font-weight: bold;}
+            
+.keypad { 
+    text-align: left;
+}
+            
